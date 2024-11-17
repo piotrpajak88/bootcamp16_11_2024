@@ -77,3 +77,4 @@ check_string('1234567')
 check_string('aaaaa')
 check_string('aaa123')
 check_string('  Tralalala  ')
+
