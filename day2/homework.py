@@ -104,6 +104,9 @@ print(my_str)
 
 my_str = "Lubię Pythona"
 print(my_str[my_str.index('P'):-1])
+ind1 = my_str.find('Python')
+ind2 = ind1 + len('Python')
+print(my_str[ind1:ind2])
 
 # 20. Zadanie: Stwórz Listę Liczb Nieparzystych
 # Stwórz listę zawierającą pierwsze pięć liczb nieparzystych.
