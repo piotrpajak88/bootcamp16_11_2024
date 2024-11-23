@@ -72,4 +72,52 @@ print(list_unique)  # [1, 2, 3, 4, 5]
 
 print(list(dict.fromkeys(keys)))  # w jednej linijce usuwanie duplikatow bez zmiany kolejnosci
 
+# wypisanie wartosci dla kluczy
+
+print(my_dict["A"])  # one
+print(dict_mixed[3])  # three
+print(dict_with_list_and_tuple["B"])  # ('Bat', 'cat', 'hat')
+print(dict_with_all["C"])  # {'name', 'age', 10}
+print(dict_with_integer[2])  # two
+
+# naciskamy ctrl i klikamy na nazwe zmiennej zeby przejsc do linijki gdzie zostala zdefiniowana
+
+# print(my_dict['e']) # KeyError: 'e'
+
+print(my_dict4.get("a"))  # [10, 20, 30]
+print(my_dict4.get("e"))  # None
+# mozemy ustawic watrosc domysla jaka bedzie zwracana gdy nie ma klucza w slowniku
+print(my_dict4.get("e", "Nie ma"))  # Nie ma
+
+my_dict5 = {'Name': 'Radek', "ID": 12345, "DOB": 1991, 'Address': "Warsaw"}
+print(my_dict5)
+
+print(my_dict5['DOB'])  # 1991
+my_dict5['DOB'] = '1980'
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': '1980', 'Address': 'Warsaw'}
+
+dict1 = {"DOB": 1995}
+print(type(dict1))  # <class 'dict'>
+
+# update slownika innym slownikiem
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': '1980', 'Address': 'Warsaw'}
+my_dict5.update(dict1)
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw'}
+
+my_dict5['Job'] = 'Developer'
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw', 'Job': 'Developer'}
+
+dict2 = {'cpi': 3.41}
+print(dict2)  # {'cpi': 3.41}
+
+# update słownika
+# dodanie klucza jesli taki jeszcze nie istnieje
+my_dict5.update(dict2)
+print(my_dict5)
+# {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw', 'Job': 'Developer', 'cpi': 3.41}
+
+my_dict5['aaa'] = 'bbb'
+print(my_dict5)
+
+# {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw', 'Job': 'Developer', 'cpi': 3.41, 'aaa': 'bbb'}
 
