@@ -121,3 +121,50 @@ print(my_dict5)
 
 # {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw', 'Job': 'Developer', 'cpi': 3.41, 'aaa': 'bbb'}
 
+# Usuniecie elementu ze slownika
+# nie ma remove dla slownika, jest za to pop
+
+print(my_dict5.pop('cpi'))  # 3.41
+print(my_dict5.pop('aaa'))  # bbb
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw', 'Job': 'Developer'}
+
+# usuniecie ostatniego elementu ze słownika
+
+print(my_dict5.popitem())  # ('Job', 'Developer')
+print(my_dict5)  # {'Name': 'Radek', 'ID': 12345, 'DOB': 1995, 'Address': 'Warsaw'}
+
+del my_dict5['ID']
+print(my_dict5)  # {'Name': 'Radek', 'DOB': 1995, 'Address': 'Warsaw'}
+
+my_dict5.clear()
+print(my_dict5)  # {}
+
+del my_dict5
+# my_dict5 juz nie istnieje
+# print(my_dict5) NameError: name 'my_dict5' is not defined. Did you mean: 'my_dict'?
+
+slownik = {'stary_klucz': 'wartosc'}
+slownik['nowy_klucz'] = slownik.pop('stary_klucz')
+print(slownik)  # {'nowy_klucz': 'wartosc'}
+
+my_dict5 = {'Name': 'Radek', "ID": 12345, "DOB": 1991, 'Address': "Warsaw"}
+my_dict_copy_ref = my_dict5
+print(id(my_dict5))  # 2005391680896
+print(id(my_dict_copy_ref))  # 2005391680896
+
+my_dict_copy = my_dict5.copy()
+my_dict5.clear()
+print(my_dict_copy)
+# {'Name': 'Radek', 'ID': 12345, 'DOB': 1991, 'Address': 'Warsaw'}
+print(my_dict5) #{}
+print(my_dict_copy_ref) #{}
+print(f"{id(my_dict5)=}")
+# id(my_dict5)=2512145458560
+print(f"{id(my_dict_copy_ref)=}")
+# id(my_dict_copy_ref)=2512145458560
+print(f"{id(my_dict_copy)=}")
+# id(my_dict_copy)=2512145461824
+
+dict_small = {"x":3}
+dict_small.update([('y',3),('z',7)])
+print(dict_small) # {'x': 3, 'y': 3, 'z': 7}
