@@ -168,3 +168,4 @@ print(f"{id(my_dict_copy)=}")
 dict_small = {"x":3}
 dict_small.update([('y',3),('z',7)])
 print(dict_small) # {'x': 3, 'y': 3, 'z': 7}
+
