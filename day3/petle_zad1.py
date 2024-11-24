@@ -1,4 +1,5 @@
 import random
+from itertools import zip_longest
 
 # pętla - możliwość wykonania tego samego fragmentu kodu wielokrotnie
 
@@ -145,7 +146,7 @@ for pozycja, osoba in enumerate(imiona):
 # 2 Zenek
 # 3 Zbyszek
 
-for p, o in enumerate(imiona, start = 1):
+for p, o in enumerate(imiona, start=1):
     print(p, o)
 
 # 1 Radek
@@ -153,11 +154,11 @@ for p, o in enumerate(imiona, start = 1):
 # 3 Zenek
 # 4 Zbyszek
 
-ludzie = ['Radek','Janek',"Tomek","Marek"]
-wiek = [45,40,18,23,33]
-#wypisanie w takie formie Radek 45
+ludzie = ['Radek', 'Janek', "Tomek", "Marek"]
+wiek = [45, 40, 18, 23, 33]
+# wypisanie w takie formie Radek 45
 
-for i in zip(ludzie,wiek):
+for i in zip(ludzie, wiek):
     print(i)
 
 # ('Radek', 45)
@@ -165,8 +166,8 @@ for i in zip(ludzie,wiek):
 # ('Tomek', 18)
 # ('Marek', 23)
 
-for l,w in zip(ludzie,wiek):
-    print(l,w)
+for l, w in zip(ludzie, wiek):
+    print(l, w)
 
 # Radek 45
 # Janek 40
@@ -175,7 +176,7 @@ for l,w in zip(ludzie,wiek):
 
 # 0 Radek 45
 
-for i in enumerate(zip(ludzie,wiek)):
+for i in enumerate(zip(ludzie, wiek)):
     print(i)
 
 # (0, ('Radek', 45))
@@ -183,10 +184,54 @@ for i in enumerate(zip(ludzie,wiek)):
 # (2, ('Tomek', 18))
 # (3, ('Marek', 23))
 
-for i,(l,w) in enumerate(zip(ludzie,wiek)):
-    print(i,l,w)
+for i, (l, w) in enumerate(zip(ludzie, wiek)):
+    print(i, l, w)
 
 # 0 Radek 45
 # 1 Janek 40
 # 2 Tomek 18
 # 3 Marek 23
+
+zipped = zip_longest(ludzie, wiek, fillvalue='NONE')
+print(type(zipped))  # <class 'itertools.zip_longest'>
+zipped_tuple = tuple(zipped)
+print(zipped_tuple)
+# (('Radek', 45), ('Janek', 40), ('Tomek', 18), ('Marek', 23), ('NONE', 33))
+
+# iterator pozwala na asekwencyjny dostep do danych
+# po odczytaniu danych nie sa juz dostepne
+# pętle po zipped juz nie zadzialaja
+
+for i in zipped:
+    print(i)
+
+# ('Radek', 45)
+# ('Janek', 40)
+# ('Tomek', 18)
+# ('Marek', 23)
+# ('NONE', 33)
+
+print("----------------------")
+
+for (o, w) in zipped:
+    print(o, w)
+
+for i in zipped_tuple:
+    print(i)
+
+# ('Radek', 45)
+# ('Janek', 40)
+# ('Tomek', 18)
+# ('Marek', 23)
+# ('NONE', 33)
+
+
+for name,age in zipped_tuple:
+    print(name, age)
+
+# Radek 45
+# Janek 40
+# Tomek 18
+# Marek 23
+# NONE 33
+
