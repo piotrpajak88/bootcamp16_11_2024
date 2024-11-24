@@ -235,3 +235,24 @@ for name,age in zipped_tuple:
 # Marek 23
 # NONE 33
 
+for i in range(10,0,-2): # krok ujemny (krok w tył(dół))
+    print(i)
+
+# 10
+# 8
+# 6
+# 4
+# 2
+
+parzyste = [i for i in range(0,10,2)]
+print(parzyste)  # [0, 2, 4, 6, 8]
+
+ang_pol = {"jeden": "one", "dwa": "two", "trzy": "three"}
+pol_ang={}
+
+for k,v in ang_pol.items():
+    pol_ang[v]=k
+
+print(pol_ang)  # {'one': 'jeden', 'two': 'dwa', 'three': 'trzy'}
+print({v:k for k,v in ang_pol.items()}) # {'one': 'jeden', 'two': 'dwa', 'three': 'trzy'}
+
