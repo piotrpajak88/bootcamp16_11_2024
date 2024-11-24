@@ -37,8 +37,8 @@ with open("../test.log","w") as fh: # filehandler, ten plik bedzie w nadrzednym 
 
 with open("test.log","a",encoding='utf-8') as file:
     file.write("Dodane\n")
-    file.write("Dodane\n")
-    file.write("Dodane\n")
+    file.write("Dąęoane\n")
+    file.write("Dońane\n")
     file.write("Dośdane\n")
 
 with open("test.log","r",encoding='utf-8') as f:
