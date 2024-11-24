@@ -64,11 +64,12 @@
 # my_dict4 = dict.fromkeys(keys, value)
 # print(my_dict4)  # {'d': [10, 20, 30], 'b': [10, 20, 30], 'a': [10, 20, 30], 'c': [10, 20, 30]}
 #
-# keys = [1, 2, 2, 3, 4, 4, 5]  # lista z duplikatami
-# dict_unique = dict.fromkeys(keys)
-# print(dict_unique)  # {1: None, 2: None, 3: None, 4: None, 5: None}
-# list_unique = list(dict_unique)
-# print(list_unique)  # [1, 2, 3, 4, 5]
+keys = [1, 2, 2, 3, 4, 4, 5]  # lista z duplikatami
+print(keys)
+dict_unique = dict.fromkeys(keys)
+print(dict_unique)  # {1: None, 2: None, 3: None, 4: None, 5: None}
+list_unique = list(dict_unique)
+print(list_unique)  # [1, 2, 3, 4, 5]
 #
 # print(list(dict.fromkeys(keys)))  # w jednej linijce usuwanie duplikatow bez zmiany kolejnosci
 #
