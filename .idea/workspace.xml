@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="pierwszy.py">
-      <change afterPath="$PROJECT_DIR$/day6/dziedziczenie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/kl8.py" afterDir="false" />
+    <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add kl files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -558,11 +551,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733654908843</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add kl files">
+      <option name="closed" value="true" />
+      <created>1733667066875</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733667066875</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pierwszy.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="pierwszy.py" />
+    <MESSAGE value="add kl files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kl files" />
   </component>
 </project>
