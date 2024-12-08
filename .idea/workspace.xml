@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="pierwszy.py">
-      <change afterPath="$PROJECT_DIR$/day6/kl1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/dziedziczenie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/kl8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +64,7 @@
   "keyToString": {
     "Python.dir_walking.executor": "Run",
     "Python.discount.executor": "Run",
+    "Python.dziedziczenie.executor": "Run",
     "Python.format.executor": "Run",
     "Python.fun1.executor": "Run",
     "Python.fun11_decorator.executor": "Run",
@@ -77,6 +84,12 @@
     "Python.homework.executor": "Run",
     "Python.katalogi.executor": "Run",
     "Python.kl1.executor": "Run",
+    "Python.kl2.executor": "Run",
+    "Python.kl3.executor": "Run",
+    "Python.kl4.executor": "Run",
+    "Python.kl6.executor": "Run",
+    "Python.kl7.executor": "Run",
+    "Python.kl8.executor": "Run",
     "Python.listy_skladane.executor": "Run",
     "Python.main.executor": "Run",
     "Python.matematyka.executor": "Run",
@@ -114,8 +127,8 @@
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kl1">
-    <configuration name="dir_walking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.kl8">
+    <configuration name="dziedziczenie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/dir_walking.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/dziedziczenie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="katalogi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kl4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/katalogi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/kl4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kl1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kl6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/kl1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/kl6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="listy_skladane" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kl7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/listy_skladane.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/kl7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="kl8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,11 +247,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/kl8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kl1" />
-        <item itemvalue="Python.start" />
-        <item itemvalue="Python.dir_walking" />
-        <item itemvalue="Python.katalogi" />
-        <item itemvalue="Python.listy_skladane" />
+        <item itemvalue="Python.kl8" />
+        <item itemvalue="Python.kl7" />
+        <item itemvalue="Python.kl6" />
+        <item itemvalue="Python.dziedziczenie" />
+        <item itemvalue="Python.kl4" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733651001831</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="pierwszy.py">
+      <option name="closed" value="true" />
+      <created>1733654908843</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733654908843</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
