@@ -11,6 +11,7 @@ iterator = iter(lista)
 print(iterator)
 print(type(iterator))
 
+
 # <list_iterator object at 0x000002B3F02BFB50>
 # <class 'list_iterator'>
 # for i in iterator:
@@ -61,8 +62,54 @@ class Count:
             self.current += 1
             return self.current - 1
 
+
 print("-----------")
 
-counter = Count(1,20)
+counter = Count(1, 20)
 print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+
+print("-----")
+# 1
+# 2
+# 3
+# 4
+
+while True:
+    try:
+        number = next(counter)
+        print(number)
+    except StopIteration:
+        break
+
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+# 11
+# 12
+# 13
+# 14
+# 15
+# 16
+# 17
+# 18
+# 19
+# 20
+
+counter2 = Count(1, 20)
+
+print(next(counter2))
+print(next(counter2))
+print(next(counter2))
+print(next(counter2))
+# 1
+# 2
+# 3
+# 4
+
 
