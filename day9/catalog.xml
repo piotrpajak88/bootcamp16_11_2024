@@ -1,0 +1,14 @@
+<Catalog>
+    <mobile>
+        <brand>Redmi</brand>
+        <price>4399</price>
+    </mobile>
+    <mobile>
+        <brand>Samsung</brand>
+        <price>9999</price>
+    </mobile>
+    <mobile>
+        <brand>Apple</brand>
+        <price>7999</price>
+    </mobile>
+</Catalog>
