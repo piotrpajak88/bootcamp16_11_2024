@@ -33,7 +33,7 @@ def GenerateXML(filename):
     tree = ET.ElementTree(root)
 
     with open(filename,"wb") as file:
-        tree.write(file)
+        tree.write(file,xml_declaration=True)
 
 if __name__ == "__main__":
     GenerateXML('catalog.xml')

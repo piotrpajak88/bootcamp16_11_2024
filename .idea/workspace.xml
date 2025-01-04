@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add json/xml files">
-      <change afterPath="$PROJECT_DIR$/day9/xml_zad2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/api_nbp_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/api_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/bazy_danych_teoria.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day9/xml_zad3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/catalog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day9/catalog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day9/xml_zad2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day9/xml_zad2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,8 @@
   "keyToString": {
     "Python.api_astros.executor": "Run",
     "Python.api_dribble.executor": "Run",
+    "Python.api_nbp_xml.executor": "Run",
+    "Python.api_numbers.executor": "Run",
     "Python.dir_walking.executor": "Run",
     "Python.discount.executor": "Run",
     "Python.dziedziczenie.executor": "Run",
@@ -120,6 +127,7 @@
     "Python.wyjatki_zad2_kalkulator.executor": "Run",
     "Python.xml_zad1.executor": "Run",
     "Python.xml_zad2.executor": "Run",
+    "Python.xml_zad3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -129,11 +137,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.xml_zad2">
-    <configuration name="api_astros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.xml_zad3">
+    <configuration name="api_nbp_xml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8/api_astros.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9\api_nbp_xml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="api_dribbble" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="api_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9\api_dribbble.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/api_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,28 +200,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4\fun2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="json_zad1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day8/json_zad1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,13 +252,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xml_zad3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day9/xml_zad3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xml_zad3" />
+        <item itemvalue="Python.api_numbers" />
+        <item itemvalue="Python.api_nbp_xml" />
         <item itemvalue="Python.xml_zad2" />
         <item itemvalue="Python.xml_zad1" />
-        <item itemvalue="Python.api_dribbble" />
-        <item itemvalue="Python.api_astros" />
-        <item itemvalue="Python.json_zad1" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735991356760</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add json/xml files">
+      <option name="closed" value="true" />
+      <created>1735992095908</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1735992095908</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
