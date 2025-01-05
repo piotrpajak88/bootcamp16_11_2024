@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add db files">
-      <change afterPath="$PROJECT_DIR$/day10/baza5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/baza6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/baza7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day10/baza8_orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/baza10_postgres_async.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day10/baza9_postgres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/sqlite_python.db" beforeDir="false" afterPath="$PROJECT_DIR$/day10/sqlite_python.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +62,7 @@
     "Python.api_nbp_xml.executor": "Run",
     "Python.api_numbers.executor": "Run",
     "Python.baza1.executor": "Run",
+    "Python.baza10_postgres_async.executor": "Run",
     "Python.baza2.executor": "Run",
     "Python.baza3.executor": "Run",
     "Python.baza4.executor": "Run",
@@ -72,6 +70,7 @@
     "Python.baza6.executor": "Run",
     "Python.baza7.executor": "Run",
     "Python.baza8_orm.executor": "Run",
+    "Python.baza9_postgres.executor": "Run",
     "Python.dir_walking.executor": "Run",
     "Python.discount.executor": "Run",
     "Python.dziedziczenie.executor": "Run",
@@ -148,8 +147,8 @@
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.baza8_orm">
-    <configuration name="baza4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.baza10_postgres_async">
+    <configuration name="baza10_postgres_async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,29 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="baza5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza10_postgres_async.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,6 +236,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="baza9_postgres" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza9_postgres.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -283,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baza10_postgres_async" />
+        <item itemvalue="Python.baza9_postgres" />
         <item itemvalue="Python.baza8_orm" />
         <item itemvalue="Python.baza7" />
         <item itemvalue="Python.baza6" />
-        <item itemvalue="Python.baza5" />
-        <item itemvalue="Python.baza4" />
       </list>
     </recent_temporary>
   </component>
@@ -675,7 +674,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736070002253</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add db files">
+      <option name="closed" value="true" />
+      <created>1736081983373</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1736081983373</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
