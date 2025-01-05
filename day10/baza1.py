@@ -2,7 +2,7 @@ import sqlite3
 
 sql_connection = None
 try:
-    sql_connection = sqlite3.connect("sqlite_python.db")
+    sql_connection = sqlite3.connect("../day10/sqlite_python.db")
     cursor = sql_connection.cursor()
     print("Connected to SQLite")
 except sqlite3.Error as e:
