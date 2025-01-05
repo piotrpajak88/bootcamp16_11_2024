@@ -5,7 +5,7 @@ import psycopg2
 #     port = 5432,
 #     database = "mydatabase",
 #     user = "myuser",
-#     password = 'mypassword'
+#     password = ''
 # )
 
 conn = psycopg2.connect(
