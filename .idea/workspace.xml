@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add db files">
-      <change beforePath="$PROJECT_DIR$/day10/baza9_postgres.py" beforeDir="false" afterPath="$PROJECT_DIR$/day10/baza9_postgres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/baza_wydawnictwo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/bazy_relacje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +72,9 @@
     "Python.baza7.executor": "Run",
     "Python.baza8_orm.executor": "Run",
     "Python.baza9_postgres.executor": "Run",
+    "Python.baza_wydawnictwo (1).executor": "Run",
+    "Python.baza_wydawnictwo.executor": "Run",
+    "Python.bazy_relacje.executor": "Run",
     "Python.dir_walking.executor": "Run",
     "Python.discount.executor": "Run",
     "Python.dziedziczenie.executor": "Run",
@@ -137,16 +142,17 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/88iro/PycharmProjects/bootcamp16_11_2024/pythonProject2",
-    "settings.editor.selected.configurable": "promo.database"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day11" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.baza12_context_manager">
+  <component name="RunManager" selected="Python.baza_wydawnictwo (1)">
     <configuration name="baza10_postgres_async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -191,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baza7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baza_wydawnictwo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/baza_wydawnictwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baza8_orm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baza_wydawnictwo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +232,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza8_orm.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day11\baza_wydawnictwo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baza9_postgres" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bazy_relacje" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,11 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza9_postgres.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/bazy_relacje.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baza_wydawnictwo (1)" />
+        <item itemvalue="Python.baza_wydawnictwo" />
+        <item itemvalue="Python.bazy_relacje" />
         <item itemvalue="Python.baza12_context_manager" />
         <item itemvalue="Python.baza10_postgres_async" />
-        <item itemvalue="Python.baza9_postgres" />
-        <item itemvalue="Python.baza8_orm" />
-        <item itemvalue="Python.baza7" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +310,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00001" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1731756801446</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1731756801446</updated>
     </task>
     <task id="LOCAL-00002" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -697,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736088666445</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add db files">
+      <option name="closed" value="true" />
+      <created>1736088714247</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1736088714248</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
