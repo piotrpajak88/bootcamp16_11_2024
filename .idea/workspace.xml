@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add db files">
-      <change afterPath="$PROJECT_DIR$/day11/baza_wydawnictwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day11/bazy_relacje.py" afterDir="false" />
+    <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add orm files">
+      <change afterPath="$PROJECT_DIR$/day11/baza_parents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day11/baza_wiele_wiele.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,8 @@
     "Python.baza7.executor": "Run",
     "Python.baza8_orm.executor": "Run",
     "Python.baza9_postgres.executor": "Run",
+    "Python.baza_parents.executor": "Run",
+    "Python.baza_wiele_wiele.executor": "Run",
     "Python.baza_wydawnictwo (1).executor": "Run",
     "Python.baza_wydawnictwo.executor": "Run",
     "Python.bazy_relacje.executor": "Run",
@@ -152,8 +154,8 @@
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.baza_wydawnictwo (1)">
-    <configuration name="baza10_postgres_async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.baza_wiele_wiele">
+    <configuration name="baza_parents" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza10_postgres_async.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/baza_parents.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baza12_context_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="baza_wiele_wiele" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day10/baza12_context_manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/baza_wiele_wiele.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,11 +289,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.baza_wiele_wiele" />
+        <item itemvalue="Python.baza_parents" />
         <item itemvalue="Python.baza_wydawnictwo (1)" />
         <item itemvalue="Python.baza_wydawnictwo" />
         <item itemvalue="Python.bazy_relacje" />
-        <item itemvalue="Python.baza12_context_manager" />
-        <item itemvalue="Python.baza10_postgres_async" />
       </list>
     </recent_temporary>
   </component>
@@ -310,14 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00002" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1731761658008</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1731761658008</updated>
     </task>
     <task id="LOCAL-00003" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -703,7 +697,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736088714248</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add orm files">
+      <option name="closed" value="true" />
+      <created>1736595079165</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1736595079165</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -712,6 +714,7 @@
     <MESSAGE value="add json/xml files" />
     <MESSAGE value="add xml files" />
     <MESSAGE value="add db files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add db files" />
+    <MESSAGE value="add orm files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add orm files" />
   </component>
 </project>
