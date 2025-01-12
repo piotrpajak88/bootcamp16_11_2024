@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/day12/okno2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/okno3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +123,7 @@
     "Python.obliczenie_pi.executor": "Run",
     "Python.okno1.executor": "Run",
     "Python.okno2.executor": "Run",
+    "Python.okno3.executor": "Run",
     "Python.petle_zad1.executor": "Debug",
     "Python.petle_zad2.executor": "Run",
     "Python.petle_zad3.executor": "Debug",
@@ -167,7 +168,7 @@
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.okno2">
+  <component name="RunManager" selected="Python.okno3">
     <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -278,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="watki2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="okno3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,7 +292,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/watki2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/okno3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.okno3" />
         <item itemvalue="Python.okno2" />
         <item itemvalue="Python.okno1" />
         <item itemvalue="Python.obliczenie_pi" />
         <item itemvalue="Python.obliczenie_pi_do_sciagniecia" />
-        <item itemvalue="Python.watki2" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00015" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1732367099770</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1732367099770</updated>
     </task>
     <task id="LOCAL-00016" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -718,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736687389852</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add files">
+      <option name="closed" value="true" />
+      <created>1736687698733</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1736687698733</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
