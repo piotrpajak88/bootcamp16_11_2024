@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/day12/ftpki_s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12/watki.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +143,7 @@
     "Python.typy_danych_5_slownik.executor": "Debug",
     "Python.warunki_2.executor": "Run",
     "Python.warunki_zad1.executor": "Run",
+    "Python.watki.executor": "Run",
     "Python.wyjatki_zad1.executor": "Run",
     "Python.wyjatki_zad2_kalkulator.executor": "Run",
     "Python.xml_zad1.executor": "Run",
@@ -162,7 +163,7 @@
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ftpki_s">
+  <component name="RunManager" selected="Python.watki">
     <configuration name="chatbot_zad1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -251,28 +252,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="redis_zad2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/redis_zad2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="scheduler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -295,13 +274,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="watki" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/watki.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.watki" />
         <item itemvalue="Python.ftpki_s" />
         <item itemvalue="Python.scheduler" />
         <item itemvalue="Python.decimal_zad1" />
         <item itemvalue="Python.chatbot_zad1" />
-        <item itemvalue="Python.redis_zad2" />
       </list>
     </recent_temporary>
   </component>
@@ -320,14 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00010" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1732352841731</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1732352841731</updated>
     </task>
     <task id="LOCAL-00011" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -713,7 +706,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736678003370</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="add files">
+      <option name="closed" value="true" />
+      <created>1736678995269</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1736678995269</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
