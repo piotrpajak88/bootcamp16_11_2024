@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/day13/fun_transactions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/pytest_zad1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/pytest_zad2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/test-122.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/test_fun_transactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/fun_transactions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/fun_transactions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/pytest_zad1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/pytest_zad1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/pytest_zad2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/pytest_zad2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/test-122.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/test-122.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/test_fun_transactions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/test_fun_transactions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Python tests.Python tests for case.test_division_1.executor": "Run",
     "Python tests.Python tests for case.test_division_2.executor": "Run",
     "Python tests.Python tests for pytest1.test_division_type.executor": "Run",
@@ -100,6 +106,7 @@
     "Python.fun14_dek4.executor": "Run",
     "Python.fun15_rekurencyjna.executor": "Run",
     "Python.fun2 (1).executor": "Run",
+    "Python.fun2.executor": "Run",
     "Python.fun4.executor": "Run",
     "Python.fun6_srednia_ocen.executor": "Run",
     "Python.fun7.executor": "Run",
@@ -179,13 +186,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\web" />
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\testowanie" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day11" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9" />
-      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day4" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fun2">
     <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -208,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for day13.pytest_zad1.test_division_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for day13.testowanie.pytest_zad1.test_division_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,11 +227,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;day13.pytest_zad1.test_division_1&quot;" />
+      <option name="_new_target" value="&quot;day13.testowanie.pytest_zad1.test_division_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for day13.pytest_zad1.test_division_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for day13.testowanie.pytest_zad1.test_division_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,11 +242,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;day13.pytest_zad1.test_division_2&quot;" />
+      <option name="_new_target" value="&quot;day13.testowanie.pytest_zad1.test_division_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for day13.pytest_zad1.test_division_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for day13.testowanie.pytest_zad1.test_division_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,11 +257,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;day13.pytest_zad1.test_division_type&quot;" />
+      <option name="_new_target" value="&quot;day13.testowanie.pytest_zad1.test_division_type&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for day13.pytest_zad1.test_division_type_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for day13.testowanie.pytest_zad1.test_division_type_error" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,7 +272,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;day13.pytest_zad1.test_division_type_error&quot;" />
+      <option name="_new_target" value="&quot;day13.testowanie.pytest_zad1.test_division_type_error&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -285,10 +293,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for day13.pytest_zad1.test_division_type_error" />
-        <item itemvalue="Python tests.Python tests for day13.pytest_zad1.test_division_type" />
-        <item itemvalue="Python tests.Python tests for day13.pytest_zad1.test_division_1" />
-        <item itemvalue="Python tests.Python tests for day13.pytest_zad1.test_division_2" />
+        <item itemvalue="Python tests.Python tests for day13.testowanie.pytest_zad1.test_division_type_error" />
+        <item itemvalue="Python tests.Python tests for day13.testowanie.pytest_zad1.test_division_type" />
+        <item itemvalue="Python tests.Python tests for day13.testowanie.pytest_zad1.test_division_1" />
+        <item itemvalue="Python tests.Python tests for day13.testowanie.pytest_zad1.test_division_2" />
         <item itemvalue="Python tests.Python tests for test-122.TryTesting.test_reversed" />
       </list>
     </recent_temporary>
@@ -308,14 +316,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00019" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1732437892177</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1732437892177</updated>
     </task>
     <task id="LOCAL-00020" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -701,7 +701,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736693257630</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add files">
+      <option name="closed" value="true" />
+      <created>1737798967979</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1737798967979</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
