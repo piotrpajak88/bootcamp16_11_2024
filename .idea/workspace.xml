@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/day13/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web app/flask_project_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web app/flask_query_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13/web/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/flask.project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/exchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/fun_transactions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/fun_transactions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/pytest_zad1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/pytest_zad1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/pytest_zad2.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/pytest_zad2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/test-122.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/test-122.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/test_fun_transactions.py" beforeDir="false" afterPath="$PROJECT_DIR$/day13/testowanie/test_fun_transactions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +97,10 @@
     "Python.dir_walking.executor": "Run",
     "Python.discount.executor": "Run",
     "Python.dziedziczenie.executor": "Run",
+    "Python.flask.project.executor": "Run",
+    "Python.flask_form.executor": "Run",
+    "Python.flask_project_first.executor": "Run",
+    "Python.flask_query_string.executor": "Run",
     "Python.format.executor": "Run",
     "Python.ftpki_s.executor": "Run",
     "Python.fun1.executor": "Run",
@@ -186,14 +188,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\web app\static" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\web" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\testowanie" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day11" />
-      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day9" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fun2">
+  <component name="RunManager">
     <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -316,14 +318,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00020" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1732440276737</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1732440276737</updated>
     </task>
     <task id="LOCAL-00021" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -709,7 +703,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737798967979</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add files">
+      <option name="closed" value="true" />
+      <created>1737806187272</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1737806187272</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
