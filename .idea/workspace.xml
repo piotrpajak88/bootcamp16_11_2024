@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b03e726-fd48-436f-aeb9-3d375e469479" name="Changes" comment="add files">
-      <change afterPath="$PROJECT_DIR$/day13/web app/flask_project_first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web app/flask_query_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day13/web/index7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/flask.project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/exchange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/static/currencies/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day14/web_app_with_templates/static/currencies/euro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/flask_sqlalchemy_zad1/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day16/flask_sqlalchemy_zad1/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day18/escel_duzy_plik_xlswriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day18/excel_zad_duzy_plik.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day19/numpy_zad1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20/numpy_iteration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day20/numpy_zad_finanse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wykres_plotly.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/web_app_with_templates/flask.project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/web_app_with_templates/templates/exchange.html" beforeDir="false" afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/exchange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/web_app_with_templates/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/day14/web_app_with_templates/templates/exchange_results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -61,141 +67,150 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python tests.Python tests for case.test_division_1.executor": "Run",
-    "Python tests.Python tests for case.test_division_2.executor": "Run",
-    "Python tests.Python tests for pytest1.test_division_type.executor": "Run",
-    "Python tests.Python tests for pytest1.test_division_type_error.executor": "Run",
-    "Python tests.Python tests for test-122.TryTesting.test_always_fail.executor": "Run",
-    "Python tests.Python tests for test-122.TryTesting.test_reversed.executor": "Run",
-    "Python tests.Python tests in pytest_zad2.py.executor": "Run",
-    "Python tests.Python tests in test_fun_transactions.py.executor": "Run",
-    "Python.api_astros.executor": "Run",
-    "Python.api_dribble.executor": "Run",
-    "Python.api_nbp_xml.executor": "Run",
-    "Python.api_numbers.executor": "Run",
-    "Python.baza1.executor": "Run",
-    "Python.baza10_postgres_async.executor": "Run",
-    "Python.baza12_context_manager.executor": "Run",
-    "Python.baza2.executor": "Run",
-    "Python.baza3.executor": "Run",
-    "Python.baza4.executor": "Run",
-    "Python.baza5.executor": "Run",
-    "Python.baza6.executor": "Run",
-    "Python.baza7.executor": "Run",
-    "Python.baza8_orm.executor": "Run",
-    "Python.baza9_postgres.executor": "Run",
-    "Python.baza_parents.executor": "Run",
-    "Python.baza_wiele_wiele.executor": "Run",
-    "Python.baza_wydawnictwo (1).executor": "Run",
-    "Python.baza_wydawnictwo.executor": "Run",
-    "Python.bazy_relacje.executor": "Run",
-    "Python.chatbot_zad1.executor": "Run",
-    "Python.decimal_zad1.executor": "Run",
-    "Python.dir_walking.executor": "Run",
-    "Python.discount.executor": "Run",
-    "Python.dziedziczenie.executor": "Run",
-    "Python.flask.project.executor": "Run",
-    "Python.flask_form.executor": "Run",
-    "Python.flask_project_first.executor": "Run",
-    "Python.flask_query_string.executor": "Run",
-    "Python.format.executor": "Run",
-    "Python.ftpki_s.executor": "Run",
-    "Python.fun1.executor": "Run",
-    "Python.fun11_decorator.executor": "Run",
-    "Python.fun14_dek4.executor": "Run",
-    "Python.fun15_rekurencyjna.executor": "Run",
-    "Python.fun2 (1).executor": "Run",
-    "Python.fun2.executor": "Run",
-    "Python.fun4.executor": "Run",
-    "Python.fun6_srednia_ocen.executor": "Run",
-    "Python.fun7.executor": "Run",
-    "Python.fun8.executor": "Run",
-    "Python.fun9_lambda.executor": "Run",
-    "Python.fun_10.executor": "Run",
-    "Python.fun_12_dek2.executor": "Run",
-    "Python.fun_13_dek3.executor": "Run",
-    "Python.fun_16.executor": "Run",
-    "Python.fun_5_pizzeria.executor": "Run",
-    "Python.fun_transactions.executor": "Run",
-    "Python.homework.executor": "Run",
-    "Python.json_zad1.executor": "Run",
-    "Python.katalogi.executor": "Run",
-    "Python.kl1.executor": "Run",
-    "Python.kl17a.executor": "Run",
-    "Python.kl19.executor": "Run",
-    "Python.kl2.executor": "Run",
-    "Python.kl20.executor": "Run",
-    "Python.kl21a_iterator.executor": "Run",
-    "Python.kl22a.executor": "Run",
-    "Python.kl23a.executor": "Run",
-    "Python.kl3.executor": "Run",
-    "Python.kl4.executor": "Run",
-    "Python.kl6.executor": "Run",
-    "Python.kl7.executor": "Run",
-    "Python.kl8.executor": "Run",
-    "Python.listy_skladane.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.matematyka.executor": "Run",
-    "Python.mongo_zad1.executor": "Run",
-    "Python.mongo_zad2.executor": "Run",
-    "Python.mongo_zad3.executor": "Run",
-    "Python.obliczenie_pi.executor": "Run",
-    "Python.okno1.executor": "Run",
-    "Python.okno2.executor": "Run",
-    "Python.okno3.executor": "Run",
-    "Python.okno4.executor": "Run",
-    "Python.okno5_radiobutton.executor": "Run",
-    "Python.okno_pyqt_1.executor": "Run",
-    "Python.petle_zad1.executor": "Debug",
-    "Python.petle_zad2.executor": "Run",
-    "Python.petle_zad3.executor": "Debug",
-    "Python.pierwszy.executor": "Run",
-    "Python.pliki_csv_zad1.executor": "Run",
-    "Python.pliki_csv_zad2.executor": "Run",
-    "Python.pliki_csv_zad3.executor": "Run",
-    "Python.pliki_zad1.executor": "Run",
-    "Python.pliki_zad2.executor": "Run",
-    "Python.program_slownik.executor": "Run",
-    "Python.random_zad1.executor": "Run",
-    "Python.redis_zad1.executor": "Run",
-    "Python.redis_zad2.executor": "Run",
-    "Python.scheduler.executor": "Run",
-    "Python.start.executor": "Run",
-    "Python.teksty.executor": "Run",
-    "Python.typy_danych.executor": "Run",
-    "Python.typy_danych_2.executor": "Run",
-    "Python.typy_danych_3_krotka.executor": "Run",
-    "Python.typy_danych_4.executor": "Debug",
-    "Python.typy_danych_5_slownik.executor": "Debug",
-    "Python.warunki_2.executor": "Run",
-    "Python.warunki_zad1.executor": "Run",
-    "Python.watki.executor": "Run",
-    "Python.watki2.executor": "Run",
-    "Python.wyjatki_zad1.executor": "Run",
-    "Python.wyjatki_zad2_kalkulator.executor": "Run",
-    "Python.xml_zad1.executor": "Run",
-    "Python.xml_zad2.executor": "Run",
-    "Python.xml_zad3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/88iro/PycharmProjects/bootcamp16_11_2024/pythonProject2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Python tests for case.test_division_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for case.test_division_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for pytest1.test_division_type.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for pytest1.test_division_type_error.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test-122.TryTesting.test_always_fail.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test-122.TryTesting.test_reversed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in pytest_zad2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_fun_transactions.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_astros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_dribble.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_nbp_xml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza10_postgres_async.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza12_context_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza8_orm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza9_postgres.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_parents.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_wiele_wiele.executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_wydawnictwo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.baza_wydawnictwo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bazy_relacje.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatbot_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decimal_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dir_walking.executor&quot;: &quot;Run&quot;,
+    &quot;Python.discount.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dziedziczenie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.excel_zad_duzy_plik.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask.project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_project_first.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flask_query_string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.format.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ftpki_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun11_decorator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun14_dek4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun15_rekurencyjna.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun6_srednia_ocen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun9_lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_12_dek2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_13_dek3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_5_pizzeria.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fun_transactions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework.executor&quot;: &quot;Run&quot;,
+    &quot;Python.json_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.katalogi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl17a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl21a_iterator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl22a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl23a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kl8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.listy_skladane.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matematyka.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mongo_zad3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numpy_iteration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numpy_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numpy_zad_finanse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.obliczenie_pi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno5_radiobutton.executor&quot;: &quot;Run&quot;,
+    &quot;Python.okno_pyqt_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_zad1.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.petle_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.petle_zad3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.pierwszy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pliki_csv_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pliki_csv_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pliki_csv_zad3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pliki_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pliki_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.program_slownik.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.redis_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scheduler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teksty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typy_danych.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typy_danych_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typy_danych_3_krotka.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typy_danych_4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.typy_danych_5_slownik.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.warunki_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.warunki_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.watki.executor&quot;: &quot;Run&quot;,
+    &quot;Python.watki2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wyjatki_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wyjatki_zad2_kalkulator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml_zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml_zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xml_zad3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/88iro/SparkProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day14\web_app_with_templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day14\web_app_with_templates\static\currencies" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\web app\static" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\web" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13\testowanie" />
       <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day13" />
-      <recent name="C:\Users\88iro\PycharmProjects\bootcamp16_11_2024\pythonProject2\day11" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.fun2">
     <configuration name="fun2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject2" />
       <option name="ENV_FILES" value="" />
@@ -306,7 +321,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
       </set>
     </attachedChunks>
   </component>
@@ -318,14 +333,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731754497142</updated>
-    </task>
-    <task id="LOCAL-00021" summary="pierwszy.py">
-      <option name="closed" value="true" />
-      <created>1732445471237</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1732445471237</updated>
     </task>
     <task id="LOCAL-00022" summary="pierwszy.py">
       <option name="closed" value="true" />
@@ -711,7 +718,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737806187272</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="add files">
+      <option name="closed" value="true" />
+      <created>1737882925805</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1737882925807</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
